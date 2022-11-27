@@ -37,7 +37,7 @@ git status
 Git Commit
 -------
 
-1.Commit
+1. Commit
 ``` markdown  
 git commit -m "message"
 
@@ -68,9 +68,41 @@ Note: After creating token is going to be your password!
 
 Git Pull
 -------
+1. Fetch the specified remote’s copy of the current branch and immediately merge it into the local copy. This is the same as
+2. Similar to the default invocation, fetches the remote content but does not create a new merge commit.
 ```markdown
-git pull
+1. git pull
+2. git pull --no-commit
 ```
+
+Git Rebase
+-------
+
+
+Git Branch
+-------
+1. Delete branch
+2. Copy branch
+3. Show which branch you are in
+4. Check all branches
+5. Switch between branches
+6. Create branch
+
+```markdown
+1. git branch -d + (BRANCH NAME FOR DELETE)
+2. git branch -c
+3. git branch
+4. git branch -a
+5. git branch checkout + (BRANCH NAME FOR SWITCH)
+6. git branch -b + (BRANCH NAME YOU WANT TO CREATE)
+```
+
+Git Merge
+-------
+```markdown
+git merge + (BRANCH NAME YOU WANT TO MERGE)
+```
+
 
 
 
