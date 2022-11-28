@@ -103,6 +103,20 @@ Git Merge
 git merge + (BRANCH NAME YOU WANT TO MERGE)
 ```
 
+Git Rebase
+-------
+Rebasing is the process of moving or combining a sequence of commits to a new base commit.
+
+```markdown
+1. git pull -r origin (BRANCH NAME)
+```
+Manuel fix the conflicts
+
+```markdown 
+2. git add .
+3. git rebase --continue
+4. git push -f (Force push)
+```
 
 
 
