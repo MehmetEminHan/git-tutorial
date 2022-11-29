@@ -75,10 +75,6 @@ Git Pull
 2. git pull --no-commit
 ```
 
-Git Rebase
--------
-
-
 Git Branch
 -------
 1. Delete branch
