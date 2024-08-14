@@ -1,9 +1,9 @@
 # git-tutorial
-This tutorial goals is learning expert level Git &amp; GitHub
+This tutorial's goal is to helping to learn expert level Git &amp; GitHub
 
 Git Configuration
 -------
- 1. Create Name, email, color scheme
+ 1. Create a Name, email, and color scheme
   
 ``` markdown
 git config --global user.name "USERNAME"
@@ -19,7 +19,7 @@ Git Staging Area
 git init
 ```
   
-  2. Git add to staging area
+  2. Git add to the staging area
  
  ``` markdown  
 git add FILES NAME
@@ -42,7 +42,7 @@ Git Commit
 git commit -m "message"
 
 ```
-2. Change message from previous commit
+2. Change the message from the previous commit
 ``` markdown  
 git commit --amend -m "new message" 
 ```
